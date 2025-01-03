@@ -10,18 +10,18 @@ def summa():
             print(n_input + i + 5 , end=' ')
 # summa()
 # 3 задание
-# def square_number_ending_in_5(num):
-#
-#     if num % 10 != 5:
-#         return "Число не оканчивается на 5!"
-#
-#
-#     base = num // 10
-#     result = base * (base + 1)
-#
-#
-#     return int(f"{result}25")
-#
+def square_number_ending_in_5(num):
+
+    if num % 10 != 5:
+        return "Число не оканчивается на 5!"
+
+
+    base = num // 10
+    result = base * (base + 1)
+
+
+    return int(f"{result}25")
+
 #
 # number = int(input("Введите число, оканчивающееся на 5: "))
 # print(f"Результат: {square_number_ending_in_5(number)}")
