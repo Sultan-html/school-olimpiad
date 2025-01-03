@@ -2,14 +2,14 @@
 a = 5
 b = 10
 print(a + b)
-# # 2 задание
-# def summa():
-#     n_input = 5
-#     for i in range( n_input + 1):
-#         for n_input in range( i + 1):
-#             print(n_input + i + 5 , end=' ')
-# # summa()
-# # 3 задание
+# 2 задание
+def summa():
+    n_input = 5
+    for i in range( n_input + 1):
+        for n_input in range( i + 1):
+            print(n_input + i + 5 , end=' ')
+# summa()
+# 3 задание
 # def square_number_ending_in_5(num):
 #
 #     if num % 10 != 5:
